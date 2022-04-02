@@ -1,4 +1,4 @@
-# HTL-VRProject with XRInteractionToolkit !Template!
+# HTL-VRProject with XRInteractionToolkit vom Template for Nadine
 
 ### Project description: 
 This project serves as sample project for spatial audio. 
@@ -21,7 +21,8 @@ Oculus Rift/S; Quest/2
 ### Visuals: 
 Screenshots (concept and experience), Video
 
-![SkizzeMaze](https://user-images.githubusercontent.com/28704310/159113247-e0cfe023-79fb-4ffd-b76f-342c55d93ef2.png)
+![Zeichenfläche 1](https://user-images.githubusercontent.com/72389468/160809677-11c0f93a-2b6e-4b90-b4d0-751fb782fb33.png)
+
 
 ### Third party material: 
 
@@ -29,4 +30,4 @@ For testing without a headset, use the XR Device Simulator (included in the xr i
 
 ### Limitations/Problems: 
 
-Copyright by smeerws :)
+Copyright by Nadine :)
