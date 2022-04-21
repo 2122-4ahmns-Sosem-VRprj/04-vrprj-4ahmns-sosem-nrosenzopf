@@ -13,7 +13,7 @@ Nach jeden aufheben erscheint im Canvas ein 2D Ei in der aufgehobenen Farbe mit 
 Das 3D Ei verschwindet nach dem Aufheben.
 In Mitte des Spieles befindet sich ein kleines Rechenrätselspiel. Hierfür werden diese 4 Eier mit der jeweiligen Farbe benötigt. Auf den Wänden befinden sich 3 kleine Rechnungen wie Beispielsweiße „Rot-Blau=?“. Vor einem befinden sich unter jeden Rechnung 1 Button, wo die Zahl jeweils einzugeben ist. Die Zahl steigert sich bei jeden Mal betätigen des Buttons: 1 Klick und die Zahl steigert sich um 1 (Beispiel die aktuelle Zahl beträgt 4 und der Button wird betätigt, so springt diese auf 5). Zu jeder Rechnung gehört ein Button. Sind alle 3 Rechnungen richtig berechnet, so öffnet sich eine Falltüre und der Spiele fällt in den Untergrund. WICHTIG: Die Zahlen werden NICHT jede Runde neu generiert.
 
-(![Spiel1 1](https://user-images.githubusercontent.com/72389468/164445084-e431bc2e-37f3-4384-a692-1c218f73879d.JPG)
+![Spiel1 1](https://user-images.githubusercontent.com/72389468/164445084-e431bc2e-37f3-4384-a692-1c218f73879d.JPG)
 ![Spiel1 2](https://user-images.githubusercontent.com/72389468/164445135-5c37fb3a-cf6b-4b99-ab7f-3fc9880b31cc.JPG)
 ![Spiel1 3](https://user-images.githubusercontent.com/72389468/164445160-70c48221-05a8-4129-a57b-dcef425cf59f.JPG)
 
@@ -25,6 +25,8 @@ Ein erdiger Gang mit Wasser (Unity Standard Assets) liegt vor einem. Geht man de
 
 ### Rätsel 2:
 Hier findet man das Spiel „whack a mole“. Mit dem zuvor gefundenen Hammer müssen innerhalb eines bestimmten Zeitraumes eine bestimmte Anzahl dieser kleinen Tiere mit dem Hammer geschlagen werden (wie das Original). Man hat 3 Versuche. Ist eine Zeit abgelaufen und ich habe nicht die gewünschte Anzahl an Murmeltiere erschlagen, so verschwindet ein Lebenspunkt. Nach 3 Fehlversuchen erscheint der „Death-Screen“.
+
+![Mole](https://user-images.githubusercontent.com/72389468/164448619-148da3d0-cd03-49e5-bd5c-ffd5380443d4.png)
 
 ### Schluss:
 Wurde diese Aufgabe erfüllt, so kann man in die Freiheit gelangen und es öffnet sich eine Türe und der „Sie haben es geschafft“-Screen erscheint.
