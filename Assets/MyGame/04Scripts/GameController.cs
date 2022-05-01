@@ -15,10 +15,10 @@ public class GameController : MonoBehaviour
     public float showMoleTimer = 1.5f;
 
     public int health = 3;
-    public TextMesh healthText;
+    public TextMeshPro healthText;
 
-    public int thathealth;
-
+    public bool endReached = false;
+    public Animator anim;
     // Start is called before the first frame update
 
 
@@ -28,7 +28,8 @@ public class GameController : MonoBehaviour
         // moles = moleContainer.GetComponentsInChildren<Mole>();
        moles = GetAllChildren(moleContainer);
 
-            Debug.Log("Anzahl Moles" + moles.Length);
+        Debug.Log("Anzahl Moles" + moles.Length);
+       // anim.SetBool("DoorsUp", false);
     }
 
     // Update is called once per frame
@@ -42,8 +43,9 @@ public class GameController : MonoBehaviour
             // Macht das ich keine Kommazahlen mehr habe -> Mathf.Floor
             timerText.text = "Time:" + Mathf.Floor(gameTimer);
 
-            
-           showMoleTimer -= Time.deltaTime;
+            healthText.text = "Health:" + health;
+
+            showMoleTimer -= Time.deltaTime;
             if (showMoleTimer < 0f)
             {
              
@@ -57,22 +59,38 @@ public class GameController : MonoBehaviour
 
         else
         {
-            if (hammerscript.score <= 20)
+           if (hammerscript.scorethelux <= 20 && !endReached)
             {
-                thathealth =health - 1;
+                health = health - 1;
+                healthText.text = "Health:" + health;
                 Debug.Log("Loooser");
+                endReached = true;
+                timerText.text = "Try again";
             }
 
-            else
+         if (hammerscript.scorethelux > 20 && !endReached)
             {
-                Debug.Log("WinnerWinnerChickenDinner");
+                Debug.Log("Da soll i Gewinnen?");
+                anim.SetBool("DoorsUp", true);
+                timerText.text = "You got it!";
             }
 
+            /* else
+             {
+                 Debug.Log("irgentwas passt da net");
+                 // Hier Tür Animation ausführen
+             } */
+
+          
 
             // timerText.text = "Game Over";
         }
 
-      
+        if (health < 0)
+        {
+            timerText.text = "GameOver";
+            // HIER DEN SCREEN
+        }
 
     }
 
@@ -87,4 +105,20 @@ public class GameController : MonoBehaviour
 
         return m;
     }
+
+    public void TimerNewBeimErstenMal()
+    {
+        if (health > 0)
+        {
+            gameTimer = 30f;
+            timerText.text = "Time:" + Mathf.Floor(gameTimer);
+            hammerscript.scorethelux = 0;
+            endReached = false;
+        }
+
+      
+
+
+
+    } 
 }

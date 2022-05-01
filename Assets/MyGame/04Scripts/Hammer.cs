@@ -6,32 +6,37 @@ using TMPro;
 public class Hammer : MonoBehaviour
 {
 
- 
-    public int score = 0;
+    public int scorethelux;
+    //public int score;
     [SerializeField]
     private TextMeshPro scoreText;
 
-
+    public void Start()
+    {
+        scorethelux = 0;
+    }
 
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.tag=="Mole")
         {
             Debug.Log("Du hast des Mole gehittet");
+
+            UpdateScore();
+
+            Mole moleIhit = collision.gameObject.transform.GetComponent<Mole>();
+            moleIhit.HideMole();
         }
 
-        UpdateScore();
-
-        Mole moleIhit = collision.gameObject.transform.GetComponent<Mole>();
-        moleIhit.HideMole();
+        
     }
 
 
     void UpdateScore()
     {
-        score++;
-        scoreText.text = "Score:" + score;
-
+        scorethelux++;
+        scoreText.text = "Score:" + scorethelux;
+       
 
     }
 }
