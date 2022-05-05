@@ -6,14 +6,14 @@ using TMPro;
 public class Hammer : MonoBehaviour
 {
 
-    public int scorethelux;
+    public int scorethelux = 0;
     //public int score;
     [SerializeField]
     private TextMeshPro scoreText;
 
     public void Start()
     {
-        scorethelux = 0;
+        //scorethelux = 0;
     }
 
     private void OnCollisionEnter(Collision collision)
@@ -26,17 +26,16 @@ public class Hammer : MonoBehaviour
 
             Mole moleIhit = collision.gameObject.transform.GetComponent<Mole>();
             moleIhit.HideMole();
+
+
         }
 
         
     }
-
-
     void UpdateScore()
     {
         scorethelux++;
         scoreText.text = "Score:" + scorethelux;
-       
 
     }
 }

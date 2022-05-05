@@ -18,5 +18,7 @@ public class Eier : MonoBehaviour
         }
 
 
+        // ICH BRAUCHE TRIGGER
+
     }
 }

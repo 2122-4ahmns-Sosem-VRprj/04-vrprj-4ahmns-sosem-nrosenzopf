@@ -230,6 +230,7 @@ GameObject:
   - component: {fileID: 40919617}
   - component: {fileID: 40919616}
   - component: {fileID: 40919615}
+  - component: {fileID: 40919619}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -391,6 +392,19 @@ Transform:
   m_Father: {fileID: 165585584}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &40919619
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 40919614}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.01, y: 0.01, z: 0.01}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &69840864
 GameObject:
   m_ObjectHideFlags: 0
@@ -2370,8 +2384,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 455052688}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0.12005976, z: -0, w: 0.9927667}
+  m_LocalPosition: {x: -1.4147077, y: -0.99, z: 1.445322}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 870783115}
@@ -2380,7 +2394,7 @@ Transform:
   - {fileID: 223974229}
   m_Father: {fileID: 0}
   m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -13.791, z: 0}
 --- !u!1 &466950869
 GameObject:
   m_ObjectHideFlags: 0
@@ -2863,7 +2877,7 @@ BoxCollider:
   m_GameObject: {fileID: 704280281}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 0.07293987, y: 0.06, z: 0.3905171}
   m_Center: {x: -5.5565586e-15, y: 0.0027086362, z: 0.19564323}
@@ -7063,9 +7077,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1629676120}
-  - component: {fileID: 1629676123}
   - component: {fileID: 1629676122}
   - component: {fileID: 1629676121}
+  - component: {fileID: 1629676123}
   m_Layer: 0
   m_Name: Hammer
   m_TagString: Untagged
@@ -7415,7 +7429,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   timerText: {fileID: 1508094158}
   gameTimer: 20
-  hammerscript: {fileID: 1629676123}
+  hammerscript: {fileID: 0}
   moleContainer: {fileID: 894898507}
   moles: []
   showMoleTimer: 1.5
@@ -8459,7 +8473,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1809937792
 RectTransform:
   m_ObjectHideFlags: 0
@@ -8949,7 +8963,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d5ef6f67fecb97b4393996ddff2e7206, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  EiRotinCanvas: {fileID: 0}
+  EiRotinCanvas: {fileID: 1809937791}
 --- !u!135 &2000682419
 SphereCollider:
   m_ObjectHideFlags: 0
