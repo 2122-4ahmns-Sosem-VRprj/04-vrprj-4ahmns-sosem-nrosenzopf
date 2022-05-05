@@ -59,7 +59,7 @@ public class GameController : MonoBehaviour
 
         else
         {
-           if (hammerscript.scorethelux <= 20 && !endReached)
+           if (hammerscript.scorethelux <= 10 && !endReached)
             {
                 health = health - 1;
                 healthText.text = "Health:" + health;
@@ -68,7 +68,7 @@ public class GameController : MonoBehaviour
                 timerText.text = "Try again";
             }
 
-         if (hammerscript.scorethelux > 20 && !endReached)
+         if (hammerscript.scorethelux > 10 && !endReached)
             {
                 Debug.Log("Da soll i Gewinnen?");
                 anim.SetBool("DoorsUp", true);
