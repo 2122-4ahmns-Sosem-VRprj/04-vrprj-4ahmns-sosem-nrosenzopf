@@ -2,10 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Eier : MonoBehaviour
+public class EiGruen : MonoBehaviour
 {
-    public GameObject EiRotinCanvas;
-    public GameObject EiGrauRotinCanvas;
+    public GameObject EiGrueninCanvas;
+    public GameObject EiGrauGrueninCanvas;
     public AudioSource Audio;
     public AudioClip Clip;
 
@@ -16,10 +16,10 @@ public class Eier : MonoBehaviour
         {
             Debug.Log("Osterei");
             Destroy(gameObject);
-            EiRotinCanvas.SetActive(true);
-            EiGrauRotinCanvas.SetActive(false);
+            EiGrueninCanvas.SetActive(true);
+            EiGrauGrueninCanvas.SetActive(false);
             Audio.PlayOneShot(Clip);
-            
+
         }
 
 
