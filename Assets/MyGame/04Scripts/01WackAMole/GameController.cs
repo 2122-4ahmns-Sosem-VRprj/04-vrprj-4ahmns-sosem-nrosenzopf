@@ -108,7 +108,7 @@ public class GameController : MonoBehaviour
 
     public void TimerNewBeimErstenMal()
     {
-        if (health > 0)
+        if (health > 0 && gameTimer<1f)
         {
             gameTimer = 30f;
             timerText.text = "Time:" + Mathf.Floor(gameTimer);

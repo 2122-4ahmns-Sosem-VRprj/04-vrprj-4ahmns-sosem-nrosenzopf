@@ -7,9 +7,10 @@ public class Eier : MonoBehaviour
     public GameObject EiRotinCanvas;
 
 
-    private void OnCollisionEnter(Collision collision)
+
+    private void OnTriggerEnter(Collider collision)
     {
-        if (collision.gameObject.tag == "MainCamera")
+        if (collision.gameObject.tag == "EiTrigger")
         {
             Debug.Log("Osterei");
             Destroy(gameObject);
