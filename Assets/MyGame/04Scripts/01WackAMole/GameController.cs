@@ -19,7 +19,7 @@ public class GameController : MonoBehaviour
 
     public bool endReached = false;
     public Animator anim;
-    // Start is called before the first frame update
+    public GameObject panel;
 
 
     void Start()
@@ -86,10 +86,11 @@ public class GameController : MonoBehaviour
             // timerText.text = "Game Over";
         }
 
-        if (health < 0)
+        if (health <= 0)
         {
             timerText.text = "GameOver";
-            // HIER DEN SCREEN
+            panel.SetActive(true);
+
         }
 
     }
@@ -114,6 +115,7 @@ public class GameController : MonoBehaviour
             timerText.text = "Time:" + Mathf.Floor(gameTimer);
             hammerscript.scorethelux = 0;
             endReached = false;
+            
         }
 
       
