@@ -9,6 +9,7 @@ public class Mole : MonoBehaviour
     private Vector3 myNextXYZPosition;
     public float speed = 4f;
     public float hideMoleTImer = 1.5f;
+    public GameObject audioSource;
 
     void Awake()
     {
@@ -41,6 +42,7 @@ public class Mole : MonoBehaviour
     public void HideMole()
     {
         myNextXYZPosition = new Vector3(transform.localPosition.x, hiddenYHeight, transform.localPosition.z);
+      
     }
 
     public void ShowMole()
