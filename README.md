@@ -2,6 +2,10 @@
 ![Uebersicht](https://user-images.githubusercontent.com/72389468/164446175-9380c068-ebab-4cfd-a22a-30196b6a0213.JPG)
 
 
+### Information:
+Leider wurden die WackAMole Commits sehr vernachlässigt, da es anfangs kleinere Probleme gab und hierbei in einer anderen Scene gearbeitet wurde. Ich bitte um ihr Verständnis.
+
+
 # Spielverlauf mit Rätsel
 ## Start: 
 Eingang vor dem Labyrinth: Hohe Mauern, kein Ausgang möglich; Einziger Weg: In das Labyrinth.
