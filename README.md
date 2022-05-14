@@ -6,6 +6,16 @@
 Leider wurden die WackAMole Commits sehr vernachlässigt, da es anfangs kleinere Probleme gab und hierbei in einer anderen Scene gearbeitet wurde. Ich bitte um ihr Verständnis.
 
 
+### Eingefügte Assets:
+1. Spielautomat https://free3d.com/3d-model/asteroids-upright-arcade-machine-20174.html 
+2. Hammer von CG Trader
+
+### Eingefügte Sounds:
+1. Sourround Sound https://www.youtube.com/watch?v=wrRNj9gJezA 
+2. Blood Sound für WackAMole
+
+
+
 # Spielverlauf mit Rätsel
 ## Start: 
 Eingang vor dem Labyrinth: Hohe Mauern, kein Ausgang möglich; Einziger Weg: In das Labyrinth.
