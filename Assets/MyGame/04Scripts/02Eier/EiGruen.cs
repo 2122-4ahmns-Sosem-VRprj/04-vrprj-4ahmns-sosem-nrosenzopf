@@ -6,8 +6,7 @@ public class EiGruen : MonoBehaviour
 {
     public GameObject EiGrueninCanvas;
     public GameObject EiGrauGrueninCanvas;
-    public AudioSource Audio;
-    public AudioClip Clip;
+
 
 
     private void OnTriggerEnter(Collider collision)
@@ -18,7 +17,7 @@ public class EiGruen : MonoBehaviour
             Destroy(gameObject);
             EiGrueninCanvas.SetActive(true);
             EiGrauGrueninCanvas.SetActive(false);
-            Audio.PlayOneShot(Clip);
+ 
 
         }
 

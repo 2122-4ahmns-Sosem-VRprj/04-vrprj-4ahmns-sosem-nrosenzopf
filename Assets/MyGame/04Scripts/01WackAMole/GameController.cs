@@ -21,12 +21,15 @@ public class GameController : MonoBehaviour
     public Animator anim;
     public GameObject panel;
 
+    private AudioSource sndEffect;
+
 
     void Start()
     {
         //moles = moleContainer
         // moles = moleContainer.GetComponentsInChildren<Mole>();
        moles = GetAllChildren(moleContainer);
+        sndEffect = GetComponent<AudioSource>();
 
         Debug.Log("Anzahl Moles" + moles.Length);
        // anim.SetBool("DoorsUp", false);
@@ -43,7 +46,7 @@ public class GameController : MonoBehaviour
             // Macht das ich keine Kommazahlen mehr habe -> Mathf.Floor
             timerText.text = "Time:" + Mathf.Floor(gameTimer);
 
-            healthText.text = "Health:" + health;
+            healthText.text = "Tries:" + health;
 
             showMoleTimer -= Time.deltaTime;
             if (showMoleTimer < 0f)
@@ -62,7 +65,7 @@ public class GameController : MonoBehaviour
            if (hammerscript.scorethelux <= 10 && !endReached)
             {
                 health = health - 1;
-                healthText.text = "Health:" + health;
+                healthText.text = "Tries:" + health;
                 Debug.Log("Loooser");
                 endReached = true;
                 timerText.text = "Try again";
@@ -72,7 +75,9 @@ public class GameController : MonoBehaviour
             {
                 Debug.Log("Da soll i Gewinnen?");
                 anim.SetBool("DoorsUp", true);
+                sndEffect.Play();
                 timerText.text = "You got it!";
+              
             }
 
             /* else

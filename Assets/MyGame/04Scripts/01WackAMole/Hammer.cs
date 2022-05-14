@@ -10,10 +10,12 @@ public class Hammer : MonoBehaviour
     //public int score;
     [SerializeField]
     private TextMeshPro scoreText;
+    private AudioSource sndEffect;
 
     public void Start()
     {
         //scorethelux = 0;
+        sndEffect = GetComponent<AudioSource>();
     }
 
     private void OnCollisionEnter(Collision collision)
@@ -35,6 +37,7 @@ public class Hammer : MonoBehaviour
     void UpdateScore()
     {
         scorethelux++;
+        sndEffect.Play();
         scoreText.text = "Score:" + scorethelux;
 
     }
