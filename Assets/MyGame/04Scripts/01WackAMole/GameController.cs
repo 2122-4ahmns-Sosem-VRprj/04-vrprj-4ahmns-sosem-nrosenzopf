@@ -75,8 +75,9 @@ public class GameController : MonoBehaviour
             {
                 Debug.Log("Da soll i Gewinnen?");
                 anim.SetBool("DoorsUp", true);
-                sndEffect.Play();
                 timerText.text = "You got it!";
+                sndEffect.Play();
+                
               
             }
 
