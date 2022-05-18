@@ -3,98 +3,97 @@
 
 
 ### Information:
-Leider wurden die WackAMole Commits sehr vernachlässigt, da es anfangs kleinere Probleme gab und hierbei in einer anderen Scene gearbeitet wurde. Ich bitte um ihr Verständnis.
+Unfortunately, the WackAMole commits have been neglected due to minor problems in the beginning (connection, internet,...). I ask for your understanding.
+The commits are unfortunately not in English.
+
+### Inserted assets:
+1. gaming machine https://free3d.com/3d-model/asteroids-upright-arcade-machine-20174.html 
+2. hammer from CG Trader
+3. dog cage https://www.turbosquid.com/de/AssetManager/Index.cfm?stgAction=getFiles&subAction=Download&intID=1660384&intType=3&csrf=BBB3E73686944B8AC2CA4A8095866EB85754E0D1&showDownload=1&s=1
+4. dead rabbit
+5. tin https://www.turbosquid.com/de/3d-models/free-obj-model-generic-metal-sheet/538417
+6. old lamp https://www.turbosquid.com/de/3d-models/3d-old-lamp-1552787
+
+### Inserted sounds:
+1. sourround sound https://www.youtube.com/watch?v=wrRNj9gJezA 
+2. blood sound for WackAMole
 
 
-### Eingefügte Assets:
-1. Spielautomat https://free3d.com/3d-model/asteroids-upright-arcade-machine-20174.html 
-2. Hammer von CG Trader
-3. Hundekäfig https://www.turbosquid.com/de/AssetManager/Index.cfm?stgAction=getFiles&subAction=Download&intID=1660384&intType=3&csrf=BBB3E73686944B8AC2CA4A8095866EB85754E0D1&showDownload=1&s=1
-4. Toter Hase
-5. Blech https://www.turbosquid.com/de/3d-models/free-obj-model-generic-metal-sheet/538417
-6. Alte Lampe https://www.turbosquid.com/de/3d-models/3d-old-lamp-1552787
 
-### Eingefügte Sounds:
-1. Sourround Sound https://www.youtube.com/watch?v=wrRNj9gJezA 
-2. Blood Sound für WackAMole
-
-
-
-# Spielverlauf mit Rätsel
+# Gameplay with puzzle
 ## Start: 
-Eingang vor dem Labyrinth: Hohe Mauern, kein Ausgang möglich; Einziger Weg: In das Labyrinth.
-Labyrinth besteht aus zwei Teilen, welches mithilfe eines Untergrundes verbunden wird.
-## Im ersten Teil:
-### Rätsel 1:
-Labyrinth mit 4 Eier versteckt, welche eine bestimmte Farbe haben. Hebe ich das Ei auf, wird mithilfe des Audios eine Zahl gesagt (Beispiel Rot=5. Der Sprecher sagt „5“).
-Nach jeden aufheben erscheint im Canvas ein 2D Ei in der aufgehobenen Farbe mit dem eben genannten Wert.
-Das 3D Ei verschwindet nach dem Aufheben.
-In Mitte des Spieles befindet sich ein kleines Rechenrätselspiel. Hierfür werden diese 4 Eier mit der jeweiligen Farbe benötigt. Auf den Wänden befinden sich 3 kleine Rechnungen wie Beispielsweiße „Rot-Blau=?“. Vor einem befinden sich unter jeden Rechnung 1 Button, wo die Zahl jeweils einzugeben ist. Die Zahl steigert sich bei jeden Mal betätigen des Buttons: 1 Klick und die Zahl steigert sich um 1 (Beispiel die aktuelle Zahl beträgt 4 und der Button wird betätigt, so springt diese auf 5). Zu jeder Rechnung gehört ein Button. Sind alle 3 Rechnungen richtig berechnet, so öffnet sich eine Falltüre und der Spiele fällt in den Untergrund. WICHTIG: Die Zahlen werden NICHT jede Runde neu generiert.
+Entrance in front of the maze: high walls, no exit possible; Only way: into the maze.
+Maze consists of two parts, which is connected with the help of an underground.
+## In the first part:
+### Puzzle 1:
+Labyrinth with 4 eggs hidden, which have a certain color. When I pick up the egg, a number is said with the help of the audio (example red=5. The speaker says "5").
+After each pick up, a 2D egg appears in the canvas in the picked up color with the just mentioned value.
+The 3D egg disappears after being picked up.
+In the middle of the game there is a small arithmetic puzzle game. For this you need these 4 eggs with the respective color. On the walls there are 3 small calculations like for example "Red-Blue=?". There is under each calculation 1 button, where the number is to be entered in each case. The number increases each time the button is pressed: 1 click and the number increases by 1 (for example, the current number is 4 and the button is pressed, it jumps to 5). To each calculation belongs a button. If all 3 calculations are correct, a trapdoor opens and the game falls into the underground. IMPORTANT: The numbers are NOT regenerated every round.
 
 ![Spiel1 1](https://user-images.githubusercontent.com/72389468/164445084-e431bc2e-37f3-4384-a692-1c218f73879d.JPG)
 ![Spiel1 2](https://user-images.githubusercontent.com/72389468/164445135-5c37fb3a-cf6b-4b99-ab7f-3fc9880b31cc.JPG)
 ![Spiel1 3](https://user-images.githubusercontent.com/72389468/164445160-70c48221-05a8-4129-a57b-dcef425cf59f.JPG)
 
 
-## Untergrund:
-Ein erdiger Gang mit Wasser (Unity Standard Assets) liegt vor einem. Geht man den schmalen Gang entlang, so gelangt man zu einem leuchtenden Hammer, welcher für das nächste Rätsel mitgenommen werden muss. Geht man den Gang weiter entlang, gelangt man zu einem Lift, welcher mithilfe der Button Betätigung nach oben fährt.
+## Underground:
+An earthy corridor with water (Unity Standard Assets) is in front of you. If you walk along the narrow passage, you will come to a glowing hammer, which must be taken for the next puzzle. If you continue along the corridor, you will come to an elevator, which will go up with the help of the button operation.
 
-## Zweiter Teil:
+## Second part:
 
-### Rätsel 2:
-Hier findet man das Spiel „whack a mole“. Mit dem zuvor gefundenen Hammer müssen innerhalb eines bestimmten Zeitraumes eine bestimmte Anzahl dieser kleinen Tiere mit dem Hammer geschlagen werden (wie das Original). Man hat 3 Versuche. Ist eine Zeit abgelaufen und ich habe nicht die gewünschte Anzahl an Murmeltiere erschlagen, so verschwindet ein Lebenspunkt. Nach 3 Fehlversuchen erscheint der „Death-Screen“.
+### Puzzle 2:
+Here you will find the game "whack a mole". Using the hammer you found before, you have to hit a certain number of these little animals with the hammer within a certain period of time (like the original). One has 3 attempts. If a time has expired and I have not slain the desired number of marmots, a life point disappears. After 3 mistakes the "Death-Screen" appears.
 
 ![Mole](https://user-images.githubusercontent.com/72389468/164448619-148da3d0-cd03-49e5-bd5c-ffd5380443d4.png)
 
-### Schluss:
-Wurde diese Aufgabe erfüllt, so kann man in die Freiheit gelangen und es öffnet sich eine Türe und der „Sie haben es geschafft“-Screen erscheint.
+### Conclusion:
+When this task has been completed, you are allowed to go to freedom and a door opens and the "You did it" screen appears.
 
 ### Timer:
-Befindet sich rechts oben im Canvas und zählt die Zeit runter. Sobald die Zeit abgelaufen ist, erscheint ein „DeathScreen“ und der Spieler hat die Option zwischen „Neustart“ und „Spiel schließen“ zu entscheiden.
+Located in the upper right of the canvas and counts down the time. Once the time is up, a "DeathScreen" appears and the player has the option to choose between "Restart" and "Close Game".
 
 
-# Benötigte Sounds:
-Ostereierzahl wie „Fünf “ (Sprecher)
-Hintergrundmusik und Nebel/Wind Geräusche
-Wassergeräusche für den Untergrund und Atmen des Spielers
-Button Sound und Falltüre Sound
-Hammer leichter Sound
-Murmeltiere/Ratten/…
-Wrack a mole – Spielmaschine und Hammer sound
-Timer Leichter Sound, Türe öffnen in die Freiheit Geräusch
-Death Screen / Winner Screen Sounds stoppen und Musik startet
+# Required Sounds:
+Easter egg number like "Five " (narrator).
+Background music and fog/wind sounds
+Water sounds for the underground and breathing of the player
+Button sound and trapdoor sound
+Hammer light sound
+Groundhog/rat/...
+Wreck a mole - game machine and hammer sound
+Timer Light sound, door open to freedom sound
+Death screen / Winner screen sounds stop and music starts
 
-# Arbeitsschritte: 
-1. Spielfunktionen einbauen (VR Tauglich gestalten). Kann sich der Spieler bewegen?
-Wie groß müssen meine Objekte sein? VR Testung.
-2. Spiel 1: Ostereier Assets mit Farbe und Nummer zuweisen mit Sound. Rechnungen
-aufstellen und Lösungen in Buttonfunktion einspeisen. Wenn Ei aufgehoben, dann erscheint
-im Canvas diese Farbe des Eies mit dem angegebenen Wert.
-3. Weiterarbeiten an Einspeisung in Canvas. Dann Werte vergleichen und bei True
-Animation „Falltüre“ ausführen. Built Exe und Testen.
-4. Probleme Spiel 1 beheben.
-Death Screen: Neustart und Exit Button. Musik und Sounds off und neues Lied startet.
-Spiel 2 Rechere wie im VR Bereich.
-5. Spiel 2: Timer und Score. Murmeltiere welche Random auf und ab bewegen. Timer
-läuft aus: 1 Leben von 3 reduziert. Ein Objekt ober Spiel entfernt. Wenn 3 mal verloren,
-dann Death Screen.
-6. Triggerfunktion die Score steigen lässt. Wenn bestimmte Anzahl an Murmeltieren:
-Dann True und Türe in Freiheit mit Winner Screen. Winner Screen: “Du hast es geschafft.”
-Neustart und Exit Button. Musik und Sounds off und neues Lied startet.
-7. Untergrund einbauen. Bei Untergrund: Hammer einfügen, Wasser StandartAssets einbauen.
-8. Weiter Arbeiten an Spiel 2. Dann in VR Modus Testen. Timer einbauen: 15min Zeit
-für Spiel und falls abgelaufen: Death-Screen erscheint.
-9. Probleme Spiel 2 beheben und Spiel 2 fertig stellen (falls benötigt). Erneut Testen
-10. Design Start: Spiel 1: Ostereier, Button, Falltüre, Wände mit Blechtdach, Böden.
-11. Sounds downloaden, richtig convertieren und in Scene einbinden
-12. Untergrund designen und Wasser mit Nebel einbinden. Assets für Spielbeginn und
-weitere Dekorationen hinzufügen. Design für Spiel 2.
-13. Spiel testen und falls noch Zeit vorhanden, Objektanimationen für statische Positionen
-14. Verbesserungen und fertigstellung Design und Sounds.
-15. Spiel fertigstellen und erneut testen.
+# Steps: 
+1. Incorporate game functions (make it VR ready). Can the player move?
+How big do my objects need to be? VR testing.
+2. Game 1: Assign Easter eggs assets with color and number with sound. Calculations
+Set up and feed solutions into button function. If egg picked up, then appears
+in the canvas this color of the egg with the given value.
+3. Continue working on feeding in canvas. Then compare values and if true
+Execute animation "trap door". Built Exe and test.
+4. Fix problems game 1.
+Death Screen: Restart and exit button. Music and sounds off and new song starts.
+Game 2 Rechere as in the VR area.
+Game 2: Timer and Score. Groundhogs which move randomly up and down. Timer
+runs out: 1 life reduced from 3. One object removed above game. If lost 3 times,
+then death screen.
+6. Trigger function that makes score increase. If certain number of groundhogs:
+Then True and door in freedom with Winner Screen. Winner Screen: "You did it."
+Restart and Exit Button. Music and sounds off and new song starts.
+7. Insert underground. For underground: insert hammer, insert water StandartAssets.
+8. Continue working on game 2. then test in VR mode. Install timer: 15min time for game and if expired: Death screen appears.
+Fix game 2 problems and finish game 2 (if needed). Test again
+10. Design start: game 1: easter eggs, button, trap door, walls with tin roof, floors.
+11. Download sounds, convert them correctly and integrate them into Scene.
+12. Design underground and integrate water with fog. Add assets for game start and
+add more decorations. Design for game 2.
+13. Test game and if there is still time, add object animations for static positions.
+14. Improvements and finalize design and sounds.
+15. Finish game and test again.
 
-## Warum genau dieses Spiel?
-Der Nutzer hat ein einmaliges Erleben von Grusel und Rätselspaß. In einer wunderbar grusligen Atmosphäre im Nebel muss der Spiele einfache Rätsel lösen, welche dennoch unter Zeitdruck auszuführen sind. Der Untergrund bietet ebenfalls ein individuelles Highlight, welches dem Spieler vor allem im VR Bereich viel breite im ganzen Spiel bietet. Hierbei spielen auch die Rätsel, welche sich durch das Spiel ziehen eine enorme Rolle: Anstatt nur auf einer Stelle das Rätsel zu spielen, müssen zuvor Eier gesammelt werden, um das MiniGame überhaupt lösen zu können. Auch der Hammer für das „Wrack a hole“ Game befindet sich im Untergrund und muss bis zum Spielende mitgenommen werden.
+## Why exactly this game?
+The user has a unique experience of creepiness and puzzle fun. In a wonderfully creepy atmosphere in the fog, the games has to solve simple puzzles, which nevertheless have to be executed under time pressure. The underground also offers an individual highlight, which gives the player a lot of width throughout the game, especially in the VR area. The puzzles, which run through the game, also play an enormous role here: Instead of just playing the puzzle on one spot, eggs have to be collected beforehand to be able to solve the MiniGame at all. Also the hammer for the "Wrack a hole" game is located underground and has to be taken until the end of the game.
 
 
 Copyright by Nadine :)
