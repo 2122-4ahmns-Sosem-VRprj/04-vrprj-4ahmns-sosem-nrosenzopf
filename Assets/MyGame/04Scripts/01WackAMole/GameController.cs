@@ -113,20 +113,4 @@ public class GameController : MonoBehaviour
         return m;
     }
 
-    public void TimerNewBeimErstenMal()
-    {
-        if (health > 0 && gameTimer<1f)
-        {
-            gameTimer = 30f;
-            timerText.text = "Time:" + Mathf.Floor(gameTimer);
-            hammerscript.scorethelux = 0;
-            endReached = false;
-            
-        }
-
-      
-
-
-
-    } 
 }
