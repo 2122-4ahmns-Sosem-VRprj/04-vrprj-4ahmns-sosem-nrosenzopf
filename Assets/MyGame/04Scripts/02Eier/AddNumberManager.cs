@@ -13,7 +13,7 @@ public class AddNumberManager : MonoBehaviour
     public TextMeshPro textZahl2;
     public TextMeshPro textZahl3;
 
-    public GameObject anim;
+    public Animator anim;
 
     private void Start()
     {
@@ -39,9 +39,9 @@ public class AddNumberManager : MonoBehaviour
         if (zahl1 == 7 && zahl2 == 3 && zahl3 == 8)
         {
             // Ziel erreicht
-            Debug.Log("Gewonnen!!!");
+            Debug.Log("Jetzt fallst nieder!!!");
 
-            //Play Anim
+            anim.SetBool("Egg", true);
 
         }
     } 

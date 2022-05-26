@@ -13088,7 +13088,7 @@ MonoBehaviour:
   textZahl1: {fileID: 543209553}
   textZahl2: {fileID: 1061650836}
   textZahl3: {fileID: 2098472570}
-  anim: {fileID: 0}
+  anim: {fileID: 959096015}
 --- !u!1 &1358394027
 GameObject:
   m_ObjectHideFlags: 0
