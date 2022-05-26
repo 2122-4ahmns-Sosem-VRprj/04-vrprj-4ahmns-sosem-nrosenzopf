@@ -28,53 +28,11 @@ public class AddNumberManager : MonoBehaviour
 
     }
 
-
-
-    private void OnTriggerEnter(Collider other)
+    public void Update()
     {
-      
-            if (zahl1 < 9)
-            {
-                zahl1 = zahl1 + 1;
-                textZahl1.text = zahl1.ToString();
-            }
-            else
-            {
-                zahl1 = 0;
-                textZahl1.text = zahl1.ToString();
-            }
-
-        
-
-            if (zahl2 < 9)
-            {
-                zahl2 = zahl2 + 1;
-                textZahl2.text = zahl2.ToString();
-            }
-            else
-            {
-                zahl2 = 0;
-                textZahl2.text = zahl2.ToString();
-            }
-
- 
-        
-            if (zahl3 < 9)
-            {
-                zahl3 = zahl3 + 1;
-                textZahl3.text = zahl3.ToString();
-            }
-            else
-            {
-                zahl3 = 0;
-                textZahl3.text = zahl3.ToString();
-            }
-
-        
-
         CheckCode();
-
     }
+
 
     public void CheckCode()
     {
@@ -86,7 +44,7 @@ public class AddNumberManager : MonoBehaviour
             //Play Anim
 
         }
-    }
+    } 
 
 }
 

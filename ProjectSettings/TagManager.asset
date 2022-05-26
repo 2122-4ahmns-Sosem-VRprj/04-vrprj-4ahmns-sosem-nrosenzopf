@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Mole
   - EiTrigger
+  - Button
   layers:
   - Default
   - TransparentFX
