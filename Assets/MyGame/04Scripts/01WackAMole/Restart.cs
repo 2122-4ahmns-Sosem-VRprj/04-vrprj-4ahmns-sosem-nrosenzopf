@@ -5,15 +5,15 @@ using UnityEngine.SceneManagement;
 
 public class Restart : MonoBehaviour
 {
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.CompareTag("EiTrigger"))
+        {
+
+            Scene scene = SceneManager.GetActiveScene(); SceneManager.LoadScene(scene.name);
+
+        }
+    }
    
-
-    public void Strt()
-    {
-        Scene scene = SceneManager.GetActiveScene(); SceneManager.LoadScene(scene.name);
-    }
-
-    public void Quit()
-    {
-        Application.Quit();
-    }
 }
