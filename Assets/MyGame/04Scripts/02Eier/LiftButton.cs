@@ -4,15 +4,17 @@ using UnityEngine;
 
 public class LiftButton : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public Animator ButtonUp;
+    public Animator Open;
+    public Animator OpenR;
+    private void OnTriggerEnter(Collider other)
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        if (other.gameObject.CompareTag("EiTrigger"))
+        {
+            Debug.Log("LiftUp");
+            ButtonUp.SetBool("LiftUp", true);
+            Open.SetBool("DoorUpLeft", true);
+            OpenR.SetBool("DoorUpRight", true);
+        }
     }
 }

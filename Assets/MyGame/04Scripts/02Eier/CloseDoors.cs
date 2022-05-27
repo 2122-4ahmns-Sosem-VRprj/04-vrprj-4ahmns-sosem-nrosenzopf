@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class LiftDoors : MonoBehaviour
+public class CloseDoors : MonoBehaviour
 {
     public Animator animLeft;
     public Animator animRight;
@@ -10,14 +10,12 @@ public class LiftDoors : MonoBehaviour
     {
         if (other.gameObject.CompareTag("EiTrigger"))
         {
-            Debug.Log("DoorOpen");
-            animLeft.SetBool("DoorLeft", true);
-            animRight.SetBool("DoorRight", true);
+            Debug.Log("DoorsClosed");
+            animLeft.SetBool("CloseLeft", true);
+            animRight.SetBool("CloseRight", true);
 
         }
     }
+}
 
 
-
-
-        }
