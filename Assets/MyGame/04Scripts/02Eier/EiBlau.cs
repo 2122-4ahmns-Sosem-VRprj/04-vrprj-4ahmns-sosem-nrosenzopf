@@ -7,7 +7,16 @@ public class EiBlau : MonoBehaviour
     public GameObject EiBlauinCanvas;
     public GameObject EiGrauBlauinCanvas;
     public AudioSource Audio;
-    public AudioClip Clip;
+    public AudioClip Eight;
+
+    public AudioClip impact;
+    AudioSource audioSource;
+    public GameObject SoundBox;
+
+    void Start()
+    {
+        audioSource = GetComponent<AudioSource>();
+    }
 
 
     private void OnTriggerEnter(Collider collision)
@@ -18,7 +27,8 @@ public class EiBlau : MonoBehaviour
             Destroy(gameObject);
             EiBlauinCanvas.SetActive(true);
             EiGrauBlauinCanvas.SetActive(false);
-            Audio.PlayOneShot(Clip);
+            // audioSource.PlayOneShot(impact, 0.7F);
+            SoundBox.SetActive(true);
 
         }
 

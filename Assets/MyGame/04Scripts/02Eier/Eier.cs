@@ -6,9 +6,7 @@ public class Eier : MonoBehaviour
 {
     public GameObject EiRotinCanvas;
     public GameObject EiGrauRotinCanvas;
-    public AudioSource Audio;
-    public AudioClip Clip;
-
+    public GameObject SoundBox;
 
     private void OnTriggerEnter(Collider collision)
     {
@@ -18,8 +16,8 @@ public class Eier : MonoBehaviour
             Destroy(gameObject);
             EiRotinCanvas.SetActive(true);
             EiGrauRotinCanvas.SetActive(false);
-            Audio.PlayOneShot(Clip);
-            
+            SoundBox.SetActive(true);
+
         }
 
 

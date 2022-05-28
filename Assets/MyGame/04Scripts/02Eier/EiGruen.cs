@@ -6,6 +6,8 @@ public class EiGruen : MonoBehaviour
 {
     public GameObject EiGrueninCanvas;
     public GameObject EiGrauGrueninCanvas;
+    public GameObject SoundBox;
+
 
 
 
@@ -17,7 +19,7 @@ public class EiGruen : MonoBehaviour
             Destroy(gameObject);
             EiGrueninCanvas.SetActive(true);
             EiGrauGrueninCanvas.SetActive(false);
- 
+            SoundBox.SetActive(true);
 
         }
 

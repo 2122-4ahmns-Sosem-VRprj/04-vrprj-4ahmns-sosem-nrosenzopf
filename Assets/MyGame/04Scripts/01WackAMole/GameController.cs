@@ -21,7 +21,8 @@ public class GameController : MonoBehaviour
     public Animator anim;
     public GameObject panel;
 
-    private AudioSource sndEffect;
+    public  AudioSource sndEffect;
+    public AudioSource Cam;
 
 
     void Start()
@@ -37,8 +38,11 @@ public class GameController : MonoBehaviour
 
     // Update is called once per frame
     void Update()
+
     {
-      //  healthText.text = "Health:" + health;
+
+
+        //  healthText.text = "Health:" + health;
         gameTimer -= Time.deltaTime;
 
         if (gameTimer>1f)
@@ -96,8 +100,10 @@ public class GameController : MonoBehaviour
         {
             timerText.text = "GameOver";
             panel.SetActive(true);
-
+            Cam.Stop();
         }
+
+
 
     }
 

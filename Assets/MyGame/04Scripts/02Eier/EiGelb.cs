@@ -6,8 +6,7 @@ public class EiGelb : MonoBehaviour
 {
     public GameObject EiGelbinCanvas;
     public GameObject EiGrauGelbinCanvas;
-    public AudioSource Audio;
-    public AudioClip Clip;
+    public GameObject SoundBox;
 
 
     private void OnTriggerEnter(Collider collision)
@@ -18,7 +17,7 @@ public class EiGelb : MonoBehaviour
             Destroy(gameObject);
             EiGelbinCanvas.SetActive(true);
             EiGrauGelbinCanvas.SetActive(false);
-            Audio.PlayOneShot(Clip);
+            SoundBox.SetActive(true);
 
         }
 
