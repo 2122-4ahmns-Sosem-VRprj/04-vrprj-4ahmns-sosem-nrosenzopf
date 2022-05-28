@@ -6,6 +6,9 @@ public class CloseDoors : MonoBehaviour
 {
     public Animator animLeft;
     public Animator animRight;
+    public GameObject SoundBox;
+
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("EiTrigger"))
@@ -13,9 +16,12 @@ public class CloseDoors : MonoBehaviour
             Debug.Log("DoorsClosed");
             animLeft.SetBool("CloseLeft", true);
             animRight.SetBool("CloseRight", true);
-
+            SoundBox.SetActive(true);
+           
         }
     }
+
+    
 }
 
 

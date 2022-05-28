@@ -6,6 +6,7 @@ public class LiftDoors : MonoBehaviour
 {
     public Animator animLeft;
     public Animator animRight;
+    public GameObject SoundBox;
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("EiTrigger"))
@@ -13,6 +14,8 @@ public class LiftDoors : MonoBehaviour
             Debug.Log("DoorOpen");
             animLeft.SetBool("DoorLeft", true);
             animRight.SetBool("DoorRight", true);
+            SoundBox.SetActive(true);
+
 
         }
     }
