@@ -9,14 +9,17 @@ The commits are unfortunately not in English.
 ### Inserted assets:
 1. gaming machine https://free3d.com/3d-model/asteroids-upright-arcade-machine-20174.html 
 2. hammer from CG Trader
-3. dog cage https://www.turbosquid.com/de/AssetManager/Index.cfm?stgAction=getFiles&subAction=Download&intID=1660384&intType=3&csrf=BBB3E73686944B8AC2CA4A8095866EB85754E0D1&showDownload=1&s=1
+3. dog https://www.turbosquid.com/
 4. dead rabbit
 5. tin https://www.turbosquid.com/de/3d-models/free-obj-model-generic-metal-sheet/538417
 6. old lamp https://www.turbosquid.com/de/3d-models/3d-old-lamp-1552787
 
 ### Inserted sounds:
-1. sourround sound https://www.youtube.com/watch?v=wrRNj9gJezA 
-2. blood sound for WackAMole
+1. Introduction: Self recorded!
+2. sourround sound https://www.youtube.com/watch?v=wrRNj9gJezA 
+3. blood sound for WackAMole
+5. End of the Game: Self recorded!
+
 
 
 
