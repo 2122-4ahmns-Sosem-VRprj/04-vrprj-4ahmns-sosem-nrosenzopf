@@ -7,7 +7,7 @@ public class GameController : MonoBehaviour
 {
 
     public TextMeshPro timerText;
-    public float gameTimer = 30f;
+    public float gameTimer = 60f;
     public Hammer hammerscript;
 
     public GameObject moleContainer;
@@ -25,6 +25,7 @@ public class GameController : MonoBehaviour
     public AudioSource Cam;
 
     public GameObject SoundBox;
+  
 
    
 
@@ -70,7 +71,7 @@ public class GameController : MonoBehaviour
 
         else
         {
-           if (hammerscript.scorethelux <= 10 && !endReached)
+           if (hammerscript.scorethelux < 10 && !endReached)
             {
                 health = health - 1;
                 healthText.text = "Tries:" + health;
@@ -79,16 +80,14 @@ public class GameController : MonoBehaviour
                 timerText.text = "Try again";
             }
 
-         if (hammerscript.scorethelux > 10 && !endReached)
+         if (hammerscript.scorethelux >= 10 && !endReached)
             {
                 Debug.Log("Da soll i Gewinnen?");
                 anim.SetBool("DoorsUp", true);
                 timerText.text = "You got it!";
-                sndEffect.Play();
+
                 SoundBox.SetActive(true);
-            
-
-
+               
             }
 
             /* else

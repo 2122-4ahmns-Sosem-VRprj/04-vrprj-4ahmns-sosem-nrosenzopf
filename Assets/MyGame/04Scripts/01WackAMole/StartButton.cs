@@ -17,7 +17,7 @@ public class StartButton : MonoBehaviour
 
             if (controllerscript.health > 0 && controllerscript.gameTimer < 1f)
             {
-                controllerscript. gameTimer = 30f;
+                controllerscript. gameTimer = 50f;
                 controllerscript.timerText.text = "Time:" + Mathf.Floor(controllerscript.gameTimer);
                 controllerscript.hammerscript.scorethelux = 0;
                 controllerscript.endReached = false;

@@ -8,6 +8,8 @@ public class Freedom : MonoBehaviour
     public GameObject panel;
     public GameObject Fredom;
     public AudioSource Cam;
+    public GameObject Garage;
+    public GameObject Rain;
 
 
     private void OnTriggerEnter(Collider other)
@@ -17,13 +19,16 @@ public class Freedom : MonoBehaviour
             Fredom.SetActive(true);
             StartCoroutine(waiter());
             Cam.Stop();
+            
+            Rain.SetActive(false);
+
         }
 
     }
 
     IEnumerator waiter()
     {
-        yield return new WaitForSecondsRealtime(9);
+        yield return new WaitForSecondsRealtime(13);
         panel.SetActive(true);
     }
 }
