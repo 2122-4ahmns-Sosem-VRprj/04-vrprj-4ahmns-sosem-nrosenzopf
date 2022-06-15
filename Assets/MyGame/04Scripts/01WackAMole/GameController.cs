@@ -24,6 +24,8 @@ public class GameController : MonoBehaviour
     public  AudioSource sndEffect;
     public AudioSource Cam;
 
+    public GameObject SoundBox;
+
 
     void Start()
     {
@@ -81,8 +83,9 @@ public class GameController : MonoBehaviour
                 anim.SetBool("DoorsUp", true);
                 timerText.text = "You got it!";
                 sndEffect.Play();
-                
-              
+                SoundBox.SetActive(true);
+
+
             }
 
             /* else

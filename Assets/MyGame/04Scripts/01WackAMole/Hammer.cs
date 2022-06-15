@@ -18,9 +18,9 @@ public class Hammer : MonoBehaviour
         sndEffect = GetComponent<AudioSource>();
     }
 
-    private void OnCollisionEnter(Collision collision)
+   private void OnTriggerEnter(Collider collision)
     {
-        if (collision.gameObject.tag=="Mole")
+        if (collision.gameObject.tag == "Mole")
         {
             Debug.Log("Du hast des Mole gehittet");
 
