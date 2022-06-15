@@ -15,6 +15,8 @@ public class AddNumberManager : MonoBehaviour
 
     public Animator anim;
 
+    public GameObject UndergroundBoden;
+
     private void Start()
     {
         zahl1 = Random.Range(0, 9);
@@ -42,6 +44,7 @@ public class AddNumberManager : MonoBehaviour
             Debug.Log("Jetzt fallst nieder!!!");
 
             anim.SetBool("Egg", true);
+            UndergroundBoden.SetActive(true);
 
         }
     } 

@@ -13934,12 +13934,12 @@ GameObject:
   - component: {fileID: 954352163}
   - component: {fileID: 954352162}
   m_Layer: 7
-  m_Name: Plane (9)
+  m_Name: UndergroundBoden
   m_TagString: Untagged
   m_Icon: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &954352161
 Transform:
   m_ObjectHideFlags: 0
@@ -20372,6 +20372,7 @@ MonoBehaviour:
   textZahl2: {fileID: 1061650836}
   textZahl3: {fileID: 2098472570}
   anim: {fileID: 959096015}
+  UndergroundBoden: {fileID: 954352160}
 --- !u!1 &1358394027
 GameObject:
   m_ObjectHideFlags: 0
@@ -20538,6 +20539,14 @@ PrefabInstance:
     - target: {fileID: 400000, guid: 780611a67e8e941a2b3aa96e5915a793, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300000, guid: 780611a67e8e941a2b3aa96e5915a793, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: 780611a67e8e941a2b3aa96e5915a793, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 780611a67e8e941a2b3aa96e5915a793, type: 3}
@@ -23948,7 +23957,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1629676119}
   m_LocalRotation: {x: 0.67631936, y: -0, z: -0, w: 0.73660856}
-  m_LocalPosition: {x: 11.676, y: -4.737, z: 9.142395}
+  m_LocalPosition: {x: 11.676, y: -4.919, z: 9.142395}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 704280282}

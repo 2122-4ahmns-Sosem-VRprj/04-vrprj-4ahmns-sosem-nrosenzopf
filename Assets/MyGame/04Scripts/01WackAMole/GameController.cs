@@ -26,6 +26,8 @@ public class GameController : MonoBehaviour
 
     public GameObject SoundBox;
 
+   
+
 
     void Start()
     {
@@ -84,6 +86,7 @@ public class GameController : MonoBehaviour
                 timerText.text = "You got it!";
                 sndEffect.Play();
                 SoundBox.SetActive(true);
+            
 
 
             }
