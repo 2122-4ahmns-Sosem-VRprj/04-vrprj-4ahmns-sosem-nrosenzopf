@@ -1,9 +1,11 @@
 # VR-Project Nadine Rosenzopf
-![Uebersicht](https://user-images.githubusercontent.com/72389468/164446175-9380c068-ebab-4cfd-a22a-30196b6a0213.JPG)
+ ![Unbenannt-1](https://user-images.githubusercontent.com/72389468/173933636-c494aaf7-4740-4ebf-82b5-d4db2ef1211a.jpg)
+
+Attention! Objects are not arranged correctly here. This is only for a rough overview!
 
 
 ### Information:
-Unfortunately, the WackAMole commits have been neglected due to minor problems in the beginning (connection, internet,...). I ask for your understanding.
+Unfortunately, the WackAMole commits have been neglected due to minor problems in the beginning (connection, internet,...). I ask for your understanding. After 2 weeks the commits started correctly.
 The commits are unfortunately not in English.
 
 ### Inserted assets:
@@ -13,6 +15,10 @@ The commits are unfortunately not in English.
 4. dead rabbit
 5. tin https://www.turbosquid.com/de/3d-models/free-obj-model-generic-metal-sheet/538417
 6. barrel https://www.turbosquid.com/de/AssetManager/Index.cfm?stgAction=getFiles&subAction=Download&intID=1790727&intType=3&csrf=4CCA0D8322C5B519585621AD9DF017BC63ACD9B2&showDownload=1&s=1
+7. Grafittiwall https://sketchfab.com/3d-models/abandoned-building-003d543d7a81edb4dcd8237dd3142231d78#download
+8. RainMaker https://assetstore.unity.com/packages/vfx/particles/environment/rain-maker-2d-and-3d-rain-particle-system-for-unity-34938
+9. Lamp https://www.turbosquid.com/de/AssetManager/Index.cfm?stgAction=getFiles&subAction=Download&intID=1681409&intType=3&csrf=D198EF018B6CD7FF2BA44B1667CAFE250C30384D&showDownload=1&s=1
+10. WATER https://assetstore.unity.com/packages/tools/animation/water-float-164693
 
 ### Inserted sounds:
 1. Introduction: Self recorded!
@@ -39,6 +45,12 @@ In the middle of the game there is a small arithmetic puzzle game. For this you 
 ![Spiel1 2](https://user-images.githubusercontent.com/72389468/164445135-5c37fb3a-cf6b-4b99-ab7f-3fc9880b31cc.JPG)
 ![Spiel1 3](https://user-images.githubusercontent.com/72389468/164445160-70c48221-05a8-4129-a57b-dcef425cf59f.JPG)
 
+## Die:
+If you touch these objects you die!
+
+![fdga](https://user-images.githubusercontent.com/72389468/173935146-facb256a-e0b2-4f93-86c7-cf7db9a6cbf2.jpg)
+
+
 
 ## Underground:
 An earthy corridor with water (Unity Standard Assets) is in front of you. If you walk along the narrow passage, you will come to a glowing hammer, which must be taken for the next puzzle. If you continue along the corridor, you will come to an elevator, which will go up with the help of the button operation.
@@ -53,8 +65,12 @@ Here you will find the game "whack a mole". Using the hammer you found before, y
 ### Conclusion:
 When this task has been completed, you are allowed to go to freedom and a door opens and the "You did it" screen appears.
 
-### Timer:
-Located in the upper right of the canvas and counts down the time. Once the time is up, a "DeathScreen" appears and the player has the option to choose between "Restart" and "Close Game".
+### Die:
+If you die during the game, this overlay will appear.
+To click the button, simply hold out your hand.
+(Trigger function, tested and working)
+![Over](https://user-images.githubusercontent.com/72389468/173938702-cd9989fe-8010-4182-90d0-c51e0b9bfec2.JPG)
+
 
 
 # Required Sounds:
@@ -67,6 +83,10 @@ Groundhog/rat/...
 Wreck a mole - game machine and hammer sound
 Timer Light sound, door open to freedom sound
 Death screen / Winner screen sounds stop and music starts
+
+# Information about the Steps:
+These were for planning purposes only.
+During the final implementation, many more steps were taken.
 
 # Steps: 
 1. Incorporate game functions (make it VR ready). Can the player move?
@@ -95,6 +115,8 @@ add more decorations. Design for game 2.
 13. Test game and if there is still time, add object animations for static positions.
 14. Improvements and finalize design and sounds.
 15. Finish game and test again.
+
+
 
 ## Why exactly this game?
 The user has a unique experience of creepiness and puzzle fun. In a wonderfully creepy atmosphere in the fog, the games has to solve simple puzzles, which nevertheless have to be executed under time pressure. The underground also offers an individual highlight, which gives the player a lot of width throughout the game, especially in the VR area. The puzzles, which run through the game, also play an enormous role here: Instead of just playing the puzzle on one spot, eggs have to be collected beforehand to be able to solve the MiniGame at all. Also the hammer for the "Wrack a hole" game is located underground and has to be taken until the end of the game.
