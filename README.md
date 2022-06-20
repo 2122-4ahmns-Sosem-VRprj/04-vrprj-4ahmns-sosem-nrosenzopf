@@ -79,7 +79,10 @@ Here you will find the game "whack a mole". Using the hammer you found before, y
 ![Mole](https://user-images.githubusercontent.com/72389468/164448619-148da3d0-cd03-49e5-bd5c-ffd5380443d4.png)
 
 ### Conclusion:
-When this task has been completed, you are allowed to go to freedom (on holiday/beach) and a door opens and the screen appears.
+When this task has been completed, you are allowed to go to freedom (on holiday/beach) and a door opens, a man talks to you and the screen appears.
+![EndeFreedom](https://user-images.githubusercontent.com/72389468/174680661-ebe8d110-18dd-45c0-a474-f43dd918f89d.JPG)
+
+
 
 ### Die:
 If you die during the game, this overlay will appear.
@@ -87,6 +90,16 @@ To click the button, simply hold out your hand.
 (Trigger function, tested and working)
 ![Over](https://user-images.githubusercontent.com/72389468/173938702-cd9989fe-8010-4182-90d0-c51e0b9bfec2.JPG)
 
+
+### What you don't see/notice right away: 
+
+1. Rain from Trigger
+2. Freedom Trigger
+3. Death
+4. Ground in Underground appears only when first Game true
+5. Waiters built in at start, end and during the game
+6. The WackAMole Game was completely reprogrammed 3 times
+7. Many animations designed by myself
 
 
 # Required Sounds:
