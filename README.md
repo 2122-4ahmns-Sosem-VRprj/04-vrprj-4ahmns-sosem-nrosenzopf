@@ -120,6 +120,7 @@ add more decorations. Design for game 2.
 
 ## Why exactly this game?
 The user has a unique experience of creepiness and puzzle fun. In a wonderfully creepy atmosphere in the fog, the games has to solve simple puzzles, which nevertheless have to be executed under time pressure. The underground also offers an individual highlight, which gives the player a lot of width throughout the game, especially in the VR area. The puzzles, which run through the game, also play an enormous role here: Instead of just playing the puzzle on one spot, eggs have to be collected beforehand to be able to solve the MiniGame at all. Also the hammer for the "Wrack a hole" game is located underground and has to be taken until the end of the game.
+![Rosenzopf](https://user-images.githubusercontent.com/72389468/174569773-e73fdaa3-127f-49be-954d-fd2b8eeaa26b.JPG)
 
 
 Copyright by Nadine :)
