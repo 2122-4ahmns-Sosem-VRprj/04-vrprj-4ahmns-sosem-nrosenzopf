@@ -8,6 +8,22 @@ Attention! Objects are not arranged correctly here. This is only for a rough ove
 Unfortunately, the WackAMole commits have been neglected due to minor problems in the beginning (connection, internet,...). I ask for your understanding. After 2 weeks the commits started correctly.
 The commits are unfortunately not in English.
 
+### Inserted packages:
+
+| Package Name | Package ID | Version |
+|:---|:---|:---|
+| JetBrains Rider Editor | com.unity.ide.rider | 2.0.7 |
+| Oculus XR Plugin | com.unity.xr.oculus | 1.10.0 |
+| Test Framework | com.unity.test-framework | 1.1.31 |
+| TextMeshPro | com.unity.textmeshpro | 3.0.6 |
+| Timeline | com.unity.timeline | 1.4.8 |
+| Unity UI | com.unity.ugui | 1.0.0 |
+| Version Control | com.unity.collab-proxy | 1.9.0 |
+| Visual Studio Code Editor | com.unity.ide.vscode | 1.2.3 |
+| Visual Studio Editor | com.unity.ide.visualstudio | 2.0.11 |
+| XR Interaction Toolkit | com.unity.xr.interaction.toolkit | 2.0.1 |
+| XR Plugin Management | com.unity.xr.management | 4.0.7 |
+
 ### Inserted assets:
 1. gaming machine https://free3d.com/3d-model/asteroids-upright-arcade-machine-20174.html 
 2. hammer from CG Trader
