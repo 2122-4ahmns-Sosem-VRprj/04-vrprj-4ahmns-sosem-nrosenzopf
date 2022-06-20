@@ -79,7 +79,7 @@ Here you will find the game "whack a mole". Using the hammer you found before, y
 ![Mole](https://user-images.githubusercontent.com/72389468/164448619-148da3d0-cd03-49e5-bd5c-ffd5380443d4.png)
 
 ### Conclusion:
-When this task has been completed, you are allowed to go to freedom and a door opens and the "You did it" screen appears.
+When this task has been completed, you are allowed to go to freedom (on holiday/beach) and a door opens and the screen appears.
 
 ### Die:
 If you die during the game, this overlay will appear.
