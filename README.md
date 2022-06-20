@@ -8,6 +8,22 @@ Attention! Objects are not arranged correctly here. This is only for a rough ove
 Unfortunately, the WackAMole commits have been neglected due to minor problems in the beginning (connection, internet,...). I ask for your understanding. After 2 weeks the commits started correctly.
 The commits are unfortunately not in English.
 
+### Inserted packages:
+
+| Package Name | Package ID | Version |
+|:---|:---|:---|
+| JetBrains Rider Editor | com.unity.ide.rider | 2.0.7 |
+| Oculus XR Plugin | com.unity.xr.oculus | 1.10.0 |
+| Test Framework | com.unity.test-framework | 1.1.31 |
+| TextMeshPro | com.unity.textmeshpro | 3.0.6 |
+| Timeline | com.unity.timeline | 1.4.8 |
+| Unity UI | com.unity.ugui | 1.0.0 |
+| Version Control | com.unity.collab-proxy | 1.9.0 |
+| Visual Studio Code Editor | com.unity.ide.vscode | 1.2.3 |
+| Visual Studio Editor | com.unity.ide.visualstudio | 2.0.11 |
+| XR Interaction Toolkit | com.unity.xr.interaction.toolkit | 2.0.1 |
+| XR Plugin Management | com.unity.xr.management | 4.0.7 |
+
 ### Inserted assets:
 1. gaming machine https://free3d.com/3d-model/asteroids-upright-arcade-machine-20174.html 
 2. hammer from CG Trader
@@ -63,7 +79,7 @@ Here you will find the game "whack a mole". Using the hammer you found before, y
 ![Mole](https://user-images.githubusercontent.com/72389468/164448619-148da3d0-cd03-49e5-bd5c-ffd5380443d4.png)
 
 ### Conclusion:
-When this task has been completed, you are allowed to go to freedom and a door opens and the "You did it" screen appears.
+When this task has been completed, you are allowed to go to freedom (on holiday/beach) and a door opens and the screen appears.
 
 ### Die:
 If you die during the game, this overlay will appear.
@@ -120,6 +136,7 @@ add more decorations. Design for game 2.
 
 ## Why exactly this game?
 The user has a unique experience of creepiness and puzzle fun. In a wonderfully creepy atmosphere in the fog, the games has to solve simple puzzles, which nevertheless have to be executed under time pressure. The underground also offers an individual highlight, which gives the player a lot of width throughout the game, especially in the VR area. The puzzles, which run through the game, also play an enormous role here: Instead of just playing the puzzle on one spot, eggs have to be collected beforehand to be able to solve the MiniGame at all. Also the hammer for the "Wrack a hole" game is located underground and has to be taken until the end of the game.
+![Rosenzopf](https://user-images.githubusercontent.com/72389468/174569773-e73fdaa3-127f-49be-954d-fd2b8eeaa26b.JPG)
 
 
 Copyright by Nadine :)
